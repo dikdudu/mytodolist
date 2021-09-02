@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mytodolis_dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_dev.dart",
+                "dev"
+            ]
+        },
+        {
+            "name": "mytodolis_qa",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_qa.dart",
+                "qa"
+            ]
+        },
+        {
+            "name": "mytodolis_hom",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_hom.dart",
+                "hom"
+            ]
+        },
+        {
+            "name": "mytodolis_prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_prod.dart",
+                "prod"
+            ]
+        },
+    ]
+}
