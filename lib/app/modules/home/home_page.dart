@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/widgets/I18nText.dart';
 import 'package:mytodolist/app/core/flavor/flavors.dart';
 
 class HomePage extends StatelessWidget {
@@ -10,7 +11,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(appFlavor!.title),
       ),
-      body: Container(),
+      body: Center(
+        child: I18nText("common.title"),
+      ),
     );
   }
 }
