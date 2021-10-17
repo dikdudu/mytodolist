@@ -3,7 +3,7 @@ import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:mytodolist/app/core/flavor/flavors.dart';
 import 'package:mytodolist/app/core/themes/app_theme.dart';
-import 'package:mytodolist/app/modules/auth/login/login_page.dart';
+// import 'package:mytodolist/app/modules/auth/login/login_page.dart';
 import 'package:mytodolist/app/modules/home/home_page.dart';
 
 void initApp(Flavor flavor) {
@@ -18,7 +18,7 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: appFlavor!.title,
       theme: AppTheme.theme,
-      home: LoginPage(),
+      home: HomePage(),
       localizationsDelegates: [
         FlutterI18nDelegate(
           translationLoader: FileTranslationLoader(
